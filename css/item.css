@@ -1,0 +1,50 @@
+.background {
+	 background-image: url(../img/background.jpg);
+    opacity:0.4;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index:0;
+}
+
+.subbackground {
+	background-image: url(../img/background.jpg);
+    opacity:0.1;
+    position:absolute;
+    margin-left:419px;
+    margin-right:auto;
+    width:500px;
+	height:700px;
+	z-index:1;
+}
+
+.itemDisplay {
+	position: relative;
+	width:500px;
+	height:700px;
+	margin:auto;
+	background-color: white;
+	font-size:15px;
+}
+
+.itemDisplay strong {
+	font-size:20px;
+}
+
+.itemDisplay label {
+	display:block;
+	margin-left:130px;
+}
+
+.itemDisplay h2 {
+	display:block;
+	text-align: center;
+}
+
+.itemDisplay img {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}

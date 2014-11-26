@@ -1,0 +1,105 @@
+* {margin:0;padding:0;}
+body { margin: 0px; background-image:url(../img/background.jpg);font-family: Tahoma, Geneva, sans-serif; font-size:14px;}
+
+body {
+	display: none;
+}
+
+#ezcontainer {
+	width:700px;
+	height:600px;
+	background-color:#E0F8EC;
+	margin:auto;
+	margin-top:30px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	border:groove gray 5px;
+}
+
+#ezwrapper {
+	width:650px;
+	height:500px;
+	display:inline-block;
+	margin-left:25px;
+	margin-top:20px;
+}
+
+#ezwrappertop {
+	width:650px;
+	height:60px;
+}
+
+#ezwrappertopleft {
+	float:left;
+	width:120px;
+	height:60px;
+	line-height: 60px;
+}
+
+#requirementHint {
+	float:left;
+	margin-left:30px;
+	width:340px;
+	height:80px;
+	text-align:center;
+	line-height:30px;
+	font-size:15px;
+}
+
+#ezwrappertopright {
+	float:right;
+	width:120px;
+	height:60px;
+	line-height:60px;
+}
+
+#ezwrappermain {
+	width::650px;
+	height:380px;
+	margin-top:30px;
+	background-color:#CEECF5;
+	border-radius: 15px;
+	border:outset gray 2px;
+}
+
+.ezfield {
+	width:580px;
+	height:52px;
+	margin-left:55px;
+	margin-top:20px;
+	display:inline-block;
+}
+
+.ezfieldleft {
+	line-height:35px;
+	height:52px;
+	width:140px;
+	float:left;
+}
+
+.ezfieldright {
+	height:52px;
+	width:200px;
+	float:left;
+	margin-left:20px;
+}
+
+.ezfieldcomment {
+	height:52px;
+	width:200px;
+	margin-left:20px;
+	float:left;
+	line-height:32px;
+}
+
+#loginButton {
+	text-decoration:none;
+	color:black;
+}
+
+#loginButton:hover {
+	font-size:20px;
+}
+
+
+

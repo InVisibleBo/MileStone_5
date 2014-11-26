@@ -1,0 +1,291 @@
+* {margin:0;padding:0;}
+body { margin: 0px; background-color:#E0E0D1;font-family: Tahoma, Geneva, sans-serif; font-size:14px;font-weight:bold;}
+
+body {
+	display:none;
+}
+
+ul {
+	list-style-type:none;
+}
+
+label:hover {
+	color:gray;
+}
+#ezPageTop1 {
+	background: #F5F5F0;
+}
+
+#ezPageTop1Container{
+	width:960px;
+	margin:auto;
+	height:70px;
+}
+
+#ezPageTop1Logo {
+	width:100px;
+	height:70px;
+	float:left;
+}
+
+#ezPageTop1Right {
+	width:300px;
+	height:70px;
+	float:right;
+}
+
+#ezPageTop1UL,#ezPageTop2UL {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.ezPageTop1List {
+	margin-left: 20px;
+	height:70px;
+	float:left;
+	line-height:70px;
+}
+
+#ezPageTop2 {
+	background: #EBEBE0 ;
+    height:50px;
+}
+
+#ezPageTop2Container {
+	width:960px;
+	margin:auto;
+	height:50px;
+}
+
+#ezPageTop2NavBar {
+	width:620px;
+	height:50px;
+	margin-left:120px;
+}
+
+.ezPageTop2List {
+	width:100px;
+	height:50px;
+	float:left;
+	line-height:50px;
+	border-right:solid white 1px;
+	text-align: center;
+}
+
+#ezPageMainSearchSell {
+	width:960px;
+	margin:auto;
+
+}
+
+#ezPageMainCategoryButton {
+	float:left;
+	margin-left:50px;
+	width:100px;
+	height:50px;
+	margin-top:50px;
+}
+
+.ezCategory button {
+	width:100px;
+	height:50px;
+	text-align: center;
+}
+
+#ezPageMainSearchBar {
+	float:left;
+	margin-left:30px;
+	width:580px;
+	height:40px;
+	margin-top:55px;
+}
+
+#ezPageMainSellButton,#ezPageMainBuyButton {
+	float:left;
+	margin-left:30px;
+	width:65px;
+	height:50px;
+	margin-top:50px;
+}
+
+#ezPageMainSellButton button,#ezPageMainBuyButton button {
+	width:65px;
+	height:50px;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+#ezPageMainSearchInput {
+	float:left;
+	width:500px;
+	height:40px;
+}
+
+#ezPageMainSearchInput textarea {
+	width:500px;
+	height:40px;
+	font-size:30px;
+}
+
+#ezPageMainSearchButton {
+	float:left;
+	width:80px;
+	height:40px;
+}
+
+#ezPageMainSearchButton button {
+	width:80px;
+	height:40px;
+	font-size:20px;
+	line-height: 40px;
+}
+
+#ezPageMainContainer {
+	width:960px;
+	height:600px;
+	margin:auto;
+}
+
+#ezPageMainLeftBar {
+	float:left;
+	width:150px;
+	height:600px;
+	border-right:solid white 1px;
+	text-align: center;
+}
+
+#ezPageMainLeftBar ul li{
+	margin-top:30px;
+}
+
+#ezPageMainRightBar {
+	float:right;
+	width:150px;
+	height:600px;
+	border-left:solid white 1px;
+	text-align: center;
+}
+
+#ezPageMainRightBar h3 {
+	margin-top:30px;
+}
+
+#ezPageMainMiddleContainer {
+	float:left;
+	width:658px;
+	height:700px;
+}
+
+#ezPageMainMiddleLeft {
+	float:left;
+	width:327px;
+	height:700px;
+	border-right: dashed gray 2px;
+}
+
+#ezPageMainMiddleRight {
+	float:right;
+	width:329px;
+	height:700px;
+}
+
+#ezPageMainMiddleLeftTitle {
+	height:50px;
+	width:327px;
+	line-height:50px;
+	text-align: center;
+	color:gray;
+}
+
+#ezPageMainMiddleRightTitle {
+	height:50px;
+	width:327px;
+	line-height:50px;
+	text-align: center;
+	color:gray;
+}
+
+.unchosen {
+	display:none;
+}
+
+.chosen {
+	display: list-item;
+}
+
+.ezPageMainMiddlePic {
+	width:300px;
+	height:300px;
+	margin-left:15px;
+	margin-top:20px;
+	background-color:white;
+}
+
+.ezPageMainMiddlePic h3 {
+	text-align: center;
+	font-size:30px;
+}
+
+.ezPageMainMiddlePic h4 {
+	float:left;
+	margin-left:30px;
+	
+}
+
+.desTag div {
+	margin-left:30px;
+	margin-top:10px;
+	width:400px;
+	height:100px;
+	border:1px solid #D8D8D8;
+	word-wrap: break-word;
+}
+
+.desTag div p {
+	margin-left:5px;
+	margin-top:5px;
+}
+
+.displayPic {
+	height:250px;
+	width:300px;
+}
+
+.priceTag {
+	position: relative;
+	float:right;
+	margin-top:-250px;
+	font-size:30px;
+	color:gray;
+}
+
+.contactTag, .detailTag {
+	margin-left:70px;
+	height:40px;
+	line-height: 40px;
+}
+
+#itemGoBack,#itemShowContact {
+	float:left;
+	position:relative;
+	margin-left:120px;
+	font-size:15px;
+	top:25px;
+}
+
+#itemEmail {
+	float:left;
+	margin-left:80px;
+	margin-top:40px;
+	font-size:12px;
+}
+
+#ezPageMainRightBar li {
+	margin-top:10px;
+}
+
+#myTradeList {
+	font-size:15px;
+	color:gray;
+}
